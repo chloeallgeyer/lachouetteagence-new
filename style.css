@@ -842,6 +842,12 @@ footer p {
     margin-top: 20px;
 }
 
+.portfolio-row img {
+    margin: auto;
+}
+
+
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
