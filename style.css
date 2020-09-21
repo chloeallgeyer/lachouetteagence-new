@@ -573,14 +573,13 @@ a[data-lightbox]:hover img {
 
 #lightbox-modal .modal-dialog img {
     max-height: 90vh;
-    margin: 0 auto;
+    margin: 0 auto 10px;
 }
 
 .lightbox-caption {
     padding: 20px;
     color: #FFF;
     background: rgba(0, 0, 0, .5);
-    position: absolute;
     left: 15px;
     right: 15px;
     bottom: 5px;
@@ -627,10 +626,6 @@ a[data-lightbox]:hover img {
 .prev-lightbox {
     padding: 6px 13px 1px 10px;
     left: 25px;
-}
-
-.snapshot-lb .modal-body {
-    padding-bottom: 45px;
 }
 
 .snapshot-lb .lightbox-caption {
@@ -846,6 +841,9 @@ footer p {
     margin: auto;
 }
 
+#bloc-5-cta h2 {
+    position: relative;
+}
 
 
 @media (max-width: 1024px) {
@@ -1051,6 +1049,8 @@ footer p {
         padding-right: 0;
     }
 }
+
+
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
